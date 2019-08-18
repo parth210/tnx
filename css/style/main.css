@@ -1,0 +1,217 @@
+
+.img-slider {
+	
+	width:100%;
+	    max-height: 400px;
+
+}
+.text {
+	
+	position:absolute;
+	top:=270px;
+	left:120px;
+	
+}
+@media(min-width: 768px)
+{ .text {
+	
+	font-size:64px;
+}
+}
+
+
+.list-item li {
+	display:inline;
+	padding:15px;
+	list-style-type:disc;
+	}
+	.list-item li a {
+	color:white;
+	text-align:center;
+	}
+	.list-item li a:hover {
+	color:yellow;
+	}
+	
+ul#menu li {
+  display:inline;
+  list-style-type:disc;
+}
+ul#menu li a {
+font-family: 'Roboto' , sans-serif;
+font-size: 14px;
+padding:15px;
+color:white;
+}
+ul#menu li a:hover {
+color:yellow;
+}
+ul#menu {
+font-family: 'Roboto', sans-serif;
+font-size:20px
+}
+#form {
+position:absolute;
+left:40%;
+top:125%;
+width="500px"
+background-color:white;
+border-style:solid;
+}
+.form-group{
+width:200%;
+background-color:white;
+}
+#services{
+position:relative;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background-image: url('test.jpg');
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+.links {
+ list-style-type:none;
+  font-family: 'Poppins', sans-serif;
+}
+.links a {
+color: white;
+}
+.links a:hover {
+color:yellow;
+
+}
+
+  .myw {
+  border: 1px solid black;
+  margin:10px;
+  height:160px;
+  padding:30px;
+  text-align:center;
+  }
+ .myw a {
+ color:black;
+ }
+ .myw a:hover {
+ color:yellow;
+ }
+ .slideshow-container {
+ height:520px;
+ margin-top:50px;
+ }
+ .mySlides {
+ text-align:center;
+ padding-top:180px;
+ }
+ 
+ #heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color:white;
+  font-size:48px;
+ }
+ .active{
+ background-color:#ffc107;
+ }
+ .nav-item a {
+  font-family: 'Poppins', sans-serif;
+  margin:10px;
+  color:black;
+ }
+      .nav-item a:hover {
+         color:#ffc107;
+            }
+
+	#imgtext {
+		
+		color: white;
+		font-weight: 600;
+		font-size: 40px;
+		top:40%;
+		left:30%;
+		position:absolute;
+		-webkit-transform: translate(-50px, -40px);
+		
+	}
+	.abc {
+	 -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
